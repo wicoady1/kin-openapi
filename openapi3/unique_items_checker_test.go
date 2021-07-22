@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
+	"github.com/wicoady1/kin-openapi/openapi3"
 )
 
 func TestRegisterArrayUniqueItemsChecker(t *testing.T) {

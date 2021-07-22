@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/getkin/kin-openapi/openapi3"
+	"github.com/wicoady1/kin-openapi/openapi3"
 )
 
 //go:embed recursiveRef/*

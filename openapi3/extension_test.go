@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/getkin/kin-openapi/jsoninfo"
 	"github.com/stretchr/testify/require"
+	"github.com/wicoady1/kin-openapi/jsoninfo"
 )
 
 func ExampleExtensionProps_DecodeWith() {

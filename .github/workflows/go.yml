@@ -70,7 +70,7 @@ jobs:
         CGO_ENABLED: '1'
     - run: |
         cd openapi3/testdata
-        go get -u -v github.com/getkin/kin-openapi
+        go get -u -v github.com/wicoady1/kin-openapi
         go test -tags with_embed ./...
         git --no-pager diff && git checkout -- .
         cd -

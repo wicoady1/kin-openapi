@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/getkin/kin-openapi/openapi3filter"
-	"github.com/getkin/kin-openapi/routers/gorillamux"
+	"github.com/wicoady1/kin-openapi/openapi3"
+	"github.com/wicoady1/kin-openapi/openapi3filter"
+	"github.com/wicoady1/kin-openapi/routers/gorillamux"
 )
 
 func Example() {

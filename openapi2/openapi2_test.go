@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"reflect"
 
-	"github.com/getkin/kin-openapi/openapi2"
+	"github.com/wicoady1/kin-openapi/openapi2"
 )
 
 func Example() {

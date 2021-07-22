@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	legacyrouter "github.com/getkin/kin-openapi/routers/legacy"
 	"github.com/stretchr/testify/require"
+	"github.com/wicoady1/kin-openapi/openapi3"
+	legacyrouter "github.com/wicoady1/kin-openapi/routers/legacy"
 )
 
 func TestValidationWithDiscriminatorSelection(t *testing.T) {
